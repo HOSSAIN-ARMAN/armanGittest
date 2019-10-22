@@ -1,0 +1,15 @@
+git checkout -b "USER2"
+git add --all
+git commit -m "u2"
+git push origin USER2
+---------------------------
+MANAGER
+------------------------
+git pull origin user2
+--
+git checkout master
+--
+git pull origin USER2
+--
+git pull origin master --allow-unrelated-histories(if face problem)
+	
